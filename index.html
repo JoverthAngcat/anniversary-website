@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy 1st Anniversary ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <button id="musicBtn">🔊 Music</button>
+
+    <!-- Animated Background -->
+    <div id="gradient-bg"></div>
+
+    <!-- Soft Glow -->
+    <div class="glow glow1"></div>
+    <div class="glow glow2"></div>
+    <div class="glow glow3"></div>
+
+    <!-- Stars -->
+    <div id="stars"></div>
+
+    <!-- Floating Hearts -->
+    <div id="hearts"></div>
+
+    <div class="container">
+
+        <section id="intro">
+
+            <h1>
+                HAPPY 1ST ANNIVERSARY, PALANGGA
+            </h1>
+
+            <p class="subtitle">
+                One year down...
+                <br>
+                Forever to go ❤️
+            </p>
+
+            <div id="gift">
+                🎁
+            </div>
+
+            <p class="clickText">
+                Click the gift box
+            </p>
+
+        </section>
+
+        <section id="envelope" class="hidden">
+
+            <div class="mail">
+                💌
+            </div>
+
+            <h2>
+                Your Palangga wrote you a letter...
+            </h2>
+
+            <h3 class="question">
+                Wants to read the message?
+            </h3>
+
+            <div class="buttons">
+
+                <button id="noBtn">
+                    No
+                </button>
+
+                <button id="yesBtn">
+                    Yes ❤️
+                </button>
+
+            </div>
+
+        </section>
+
+        <section id="letter" class="hidden">
+
+            <div class="paper">
+
+                <h2>
+                    My Dearest Palangga ❤️
+                </h2>
+
+                <div id="message"></div>
+
+                <div class="done-reading">
+
+                    <p>Are you done reading it? 💜</p>
+
+                    <button id="doneBtn">
+                        Done ❤️
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- ==========================
+     MEMORY GALLERY
+========================== -->
+
+<section id="gallery" class="hidden">
+
+    <div class="gallery-header">
+
+        <h2>📸 Our Beautiful Memories ❤️</h2>
+
+        <span id="photoCounter">
+            1 / 7
+        </span>
+
+    </div>
+
+    <div class="memory-layout">
+
+        <!-- LEFT SIDE -->
+        <div class="memory-letter">
+
+            <p id="galleryCaption"></p>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="memory-photo">
+
+            <img
+                id="galleryImage"
+                src=""
+                alt="Our Memory">
+
+        </div>
+
+    </div>
+
+    <div class="gallery-controls">
+
+        <button id="prevBtn">
+            ◀ Previous
+        </button>
+
+        <button id="nextBtn">
+            Next ▶
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ==========================
+     TEDDY BEAR
+========================== -->
+
+<section id="teddySection" class="hidden">
+
+    <img
+        id="teddyImage"
+        src="assets/images/teddy bear.png"
+        alt="Teddy Bear">
+
+    <h2>
+        These flowers may fade  someday...
+    </h2>
+
+    <p>
+        But my love for you
+        never will. ❤️
+    </p>
+
+    <div class="final-message">
+
+        <h3>
+            Happy 1st Anniversary, Palangga! ❤️
+        </h3>
+
+        <p>
+            Thank you for being part of my life.
+            <br>
+            This is only the beginning of our story.
+            <br>
+            I love you, always and forever. 💜
+        </p>
+
+    </div>
+
+    <button id="replayBtn">
+        🔄 Replay Our Memories
+    </button>
+
+</section>
+
+    <!-- Fireworks Canvas -->
+<canvas id="fireworks"></canvas>
+
+<audio id="bgMusic" loop preload="auto">
+    <source src="assets/music/our-song.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
